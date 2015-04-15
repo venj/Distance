@@ -21,14 +21,14 @@
 
     // Configure interface objects here.
     
-    [self updateUserActivity:@"me.venj.Distance.GlanceTap" userInfo:@{@"NextScene" : @"fromGalance"} webpageURL:nil];
+    [self updateUserActivity:@"me.venj.Distance.GlanceTap" userInfo:@{@"NextScene" : @"fromGlance"} webpageURL:nil];
 }
 
 - (void)willActivate {
     // This method is called when watch view controller is about to be visible to user
     [super willActivate];
     
-    NSLog(@"Galance Loaded");
+    NSLog(@"Glance Loaded");
 }
 
 - (void)didDeactivate {

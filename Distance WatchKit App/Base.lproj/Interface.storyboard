@@ -36,7 +36,7 @@
                     <items>
                         <label width="1" height="25" alignment="left" text="Detail" textAlignment="center" id="tYe-w7-Nlo"/>
                         <label width="1" height="59" alignment="left" text="Label" numberOfLines="0" id="ahl-gb-0ZV"/>
-                        <label width="1" height="60" alignment="left" text="Label" textAlignment="center" numberOfLines="2" id="dh6-88-8K6">
+                        <label width="1" height="60" alignment="left" text="0.0, 0.0" textAlignment="center" numberOfLines="2" id="dh6-88-8K6">
                             <fontDescription key="font" style="UICTFontTextStyleBody"/>
                         </label>
                     </items>
@@ -48,12 +48,12 @@
             </objects>
             <point key="canvasLocation" x="482" y="347.5"/>
         </scene>
-        <!--GalanceTap-->
+        <!--GlanceTap-->
         <scene sceneID="9kp-hc-cne">
             <objects>
-                <controller identifier="fromGalance" title="GalanceTap" id="QbF-Dp-QU3">
+                <controller identifier="fromGlance" title="GlanceTap" id="QbF-Dp-QU3">
                     <items>
-                        <label width="1" height="24" alignment="left" text="From Galance" id="JpT-5o-L9K"/>
+                        <label width="1" height="24" alignment="left" text="From Glance" id="JpT-5o-L9K"/>
                     </items>
                 </controller>
             </objects>
