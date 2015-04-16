@@ -33,6 +33,13 @@
     }
 }
 
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    UILocalNotification *note = [[UILocalNotification alloc] init];
+    note.fireDate = [NSDate dateWithTimeIntervalSinceNow:20];
+    note.applicationIconBadgeNumber = 1;
+    [[UIApplication sharedApplication] scheduleLocalNotification:note];
+}
+
 - (void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
     if (status == kCLAuthorizationStatusAuthorizedWhenInUse ||
         status  == kCLAuthorizationStatusAuthorizedAlways) {

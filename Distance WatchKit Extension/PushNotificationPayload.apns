@@ -1,16 +1,16 @@
 {
     "aps": {
         "alert": {
-            "body": "Test message",
-            "title": "Optional title"
+            "body": "This is a notification",
+            "title": "See me now?"
         },
         "category": "myCategory"
     },
     
     "WatchKit Simulator Actions": [
         {
-            "title": "First Button",
-            "identifier": "firstButtonAction"
+            "title": "Show Details",
+            "identifier": "showDetails"
         }
     ],
     
